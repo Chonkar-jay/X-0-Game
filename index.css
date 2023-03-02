@@ -1,0 +1,25 @@
+.playarea_row1 div
+{
+    padding: 10%;
+}
+.playarea_row2 div
+{
+    padding: 10%;
+}
+.playarea_row3 div
+{
+    padding: 10%;
+}
+.first_box, .second_box, .fourth_box, .fifth_box
+{
+    border-right: 1px solid black;
+    border-bottom: 2px solid black;
+}
+.third_box, .sixth_box
+{
+    border-bottom: 2px solid black;
+}
+.eighth_box, .ninth_box
+{
+    border-left: 1px solid black;
+}
