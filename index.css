@@ -1,39 +1,30 @@
-/* .playarea_row1 div
+*
 {
-    padding: 10%;
+	background-color: black;
 }
-.playarea_row2 div
-{
-    padding: 10%;
+h1{
+	color:white;
 }
-.playarea_row3 div
-{
-    padding: 10%;
-} */
-
-/* .first_box, .second_box, .fourth_box, .fifth_box
-{
-    border-right: 1px solid black;
-    border-bottom: 2px solid black;
+#board {
+	display: flex;
+	padding-left:35%;
+	width: 300px;
+	height: 300px;
+	color: white;
 }
-.third_box, .sixth_box
+.buttons
 {
-    border-bottom: 2px solid black;
+	margin-left: 90%;
+	margin-top: -30%;
+	color: white;
 }
-.eighth_box, .ninth_box
-{
-    border-left: 1px solid black;
-} */
-.playarea{
-    width: 300px;
-    height: 300px;
-    display:flex;
-}
-.box1,.box2,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9
-{
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
+.square {
+	width: 100px;
+	height: 100px;
+	border: 1px solid white;
+	font-size: 4em;
+	text-align: center;
+	cursor: pointer;
 }
 .bt-0{
     border-top: 0;
@@ -50,18 +41,16 @@
 {
     border-bottom: 0;
 }
-.box:hover
-{
-    background-color:rgba(0, 174, 255, 0.089) ;
-    
+.square:hover {
+	background-color: #e58f8f;
 }
-/*button section starts*/
-.buttons
+.info
 {
-    /* margin: 15%; */
-    height: 100px;
-    width: 100px;
-    font-size: 500%;
+	color: white;
 }
-/*button section ends*/
-
+#reset:hover {
+	background-color: #1ecf41;
+}
+#playerO:hover,#playerX:hover {
+	background-color: #7032cd;
+}
